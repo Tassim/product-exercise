@@ -9,5 +9,5 @@ def count_words(sentence: str) -> int:
     return len(sentence.split())
 
 def celsius_to_fahrenheit(celsius: float) -> float:
-      """Converts temperature from Celsius to Fahrenheit."""
-      return (celsius * 9/5) + 32
+    """Converts temperature from Celsius to Fahrenheit."""
+    return (celsius * 9/5) + 32
